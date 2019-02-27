@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+i{
+    font-size: 20px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.lt_container{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+/* 头部 */
+.lt_container .lt_header{
+    position: fixed;
+    top: 0;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height: 45px;
+    background-color: #006699;
+    padding: 0 45px;
+}
+.lt_container .lt_header a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+}
+.lt_container .lt_header .icon_left{
+    left: 0;
+    top: 0;
+}
+.lt_container .lt_header h3{
+    display: block;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+.lt_container .lt_header .icon_right{
+    right: 0;
+    top: 0;
+}
+
+
+/* 主体 */
+.lt_container .lt_main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.lt_container .lt_main .mui-scroll-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.lt_container .lt_main .mui-scroll{
+    width: 100%;
+    height: 1000px;
+    background-color: lime;
+}
+
+
+/* 底部 */
+.lt_container .lt_footer{
+    position: fixed;
+    bottom:0;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height: 55px;
+    background-color: #006699;
+}
+.lt_container .lt_footer ul{
+    width: 100%;
+    height: 55px;
+    list-style: none;
+}
+.lt_container .lt_footer ul li{
+    float: left;
+    width: 25%;
+    height: 55px;
+    text-align: center;
+    padding-top: 5px;
+}
+.lt_container .lt_footer ul li a.current{
+    color: orange;
+}
